@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="index.css"
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+    <pre>HELLO    ADORE   EARTH  WELCOME  TO THE  COMPANY!
+    </pre>
+  </div>
+
+
+
+<div class="container" id="blur">
+  <div class="content">
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita vel accusantium voluptatibus amet rem temporibus corporis, quidem laudantium labore minima praesentium consequuntur quisquam architecto magni ratione obcaecati delectus sint fugit?</h2>
+    <img src="download.jpeg">
+    <a href="#" onclick="toggle()">read more</a>
+    
+  </div>
+</div>
+<div id="popup">
+  <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, amet.</h2>
+  <p>sed to usdp mrol sklajs dkelp aojo mejo h9udbjz Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos ipsam sint repellendus veniam pariatur voluptatibus eos. </p>
+  <a href="#" onclick="toggle()">close</a>
+
+</div>
+<script type="text/javascript"> 
+           function toggle(){
+
+var blur = document.getElementById('blur');
+blur.classList.toggle('active');
+
+var popup = document.getElementById('popup');
+popup.classList.toggle('active');
+            }
+   </script>
+</body>
+</html>
